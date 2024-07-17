@@ -1,6 +1,10 @@
 ---
 date:
   created: 2024-07-11
+authors:
+  - scaredrabbit
+categories:
+  - General
 ---
 
 

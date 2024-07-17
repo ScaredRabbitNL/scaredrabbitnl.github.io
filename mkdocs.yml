@@ -1,6 +1,8 @@
 site_name: Scared's Mods & Plugins
 site_url: https://scaredrabbitnl.github.io/
 
+
+
 plugins:
   - search
   - blog
