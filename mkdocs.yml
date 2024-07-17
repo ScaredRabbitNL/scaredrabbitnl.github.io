@@ -1,0 +1,38 @@
+site_name: Scared's Mods & Plugins
+site_url: https://scaredrabbitnl.github.io/
+
+plugins:
+  - search
+  - blog
+theme: 
+  name: material
+  icon:
+    repo: fontawesome/brands/github
+    annotation: material/plus-circle
+  features:
+    - content.code.annotate
+    - content.tabs.link
+    - content.code.copy
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.footer
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: cyan
+      accent: cyan
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: cyan
+      accent: cyan
+      toggle:
+        icon: material/brightness-7
+        name: Switch to light mode
