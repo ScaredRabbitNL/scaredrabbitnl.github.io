@@ -1,7 +1,13 @@
 site_name: Scared's Mods & Plugins
 site_url: https://scaredrabbitnl.github.io/
 
+nav:
+  - Home: index.md
+  #- Wiki: null
+  - Blog:
+     - blog/index.md
 
+  
 
 plugins:
   - search
@@ -21,6 +27,7 @@ theme:
     - navigation.tabs.sticky
     - navigation.sections
     - navigation.footer
+    - navigation.indexes
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
